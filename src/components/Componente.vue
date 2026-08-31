@@ -14,11 +14,11 @@ import image from '../assets/componentes.png'
     </div>
 
     <div class="image-center">
-    <img :src="image" alt="Carpetas" style="padding-top: 3%;" width="15%">
+    <img :src="image" alt="Componentes" style="padding-top: 3%;" width="15%">
     </div>
 
 </template>
 
-<style scope>
+<style scoped>
 
 </style>

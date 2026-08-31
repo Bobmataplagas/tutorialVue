@@ -17,20 +17,32 @@
 
 <style scoped>
 header {
-  margin-bottom: 1rem;
+  margin-bottom: 4%;
 }
 
 nav ul {
   display: flex;
-  gap: 1rem;
-  list-style: none;
-  padding: 0;
+  gap: 2%;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 nav a {
+  display: inline-block;
+  padding: 10px 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
   color: #fff;
   text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+nav a:hover {
+  background: rgba(248, 5, 37, 0.459);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(125, 211, 252, 0.18);
 }
 </style>

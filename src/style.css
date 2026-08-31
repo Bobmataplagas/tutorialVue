@@ -54,6 +54,8 @@ body {
   margin: 0;
 }
 
+
+
 h1,
 h2 {
   font-family: var(--heading);
@@ -295,6 +297,18 @@ code {
   }
 }
 
+.seccion {
+  border-top: 1px solid rgb(0, 0, 0);
+  padding-top: 2rem;
+  margin-top: 1.5rem;
+}
+
+.seccion:first-of-type {
+  border-top: 2px solid rgb(0, 0, 0);;
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .image-center {
   text-align: center;
 }
@@ -330,13 +344,50 @@ code {
 }
 
 .color0{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .color1{
-  color:rgb(255, 174, 0);
+  color:rgb(0, 0, 0);
 }
 
 .color2{
-  color:rgb(115, 255, 0);
+  color:rgb(0, 0, 0);
+}
+
+.color3{
+  color:rgb(255, 52, 86);
+}
+
+
+body {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images3.alphacoders.com/515/thumb-1920-51549.jpg'); 
+  background-size:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img-corner0 {
+  position: fixed;
+  right: -1.5%;
+  bottom: 0%;
+  opacity: 0.9;
+  background-attachment: fixed;
+}
+
+.img-corner1 {
+  position: fixed;
+  right: 80%;
+  bottom: 0%;
+  opacity: 0.2;
+  background-attachment: fixed;
+}
+
+.img-corner2 {
+  position: fixed;
+  right: 94%;
+  bottom:90%;
+  opacity: 1;
+  background-attachment: fixed;
 }

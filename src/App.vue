@@ -11,27 +11,33 @@ import Componente from './components/Componente.vue'
   <h1 class="title-center color2">Tutorial de Vue.js</h1>
   <HeaderComponent />
 
-  <div id="framework">
+  <section id="framework" class="seccion">
     <Framework />
-  </div>
+  </section>
 
-  <div id="requisitos">
+  <section id="requisitos" class="seccion">
     <Requisitos />
-  </div>
+  </section>
 
-  <div id="pasos">
+  <section id="pasos" class="seccion">
     <Pasos />
-  </div>
+  </section>
 
-  <div id="carpetas">
+  <section id="carpetas" class="seccion">
     <Carpetas />
-  </div>
+  </section>
 
-  <div id="componentes">
+  <section id="componentes" class="seccion">
     <Componente />
+  </section>
+
+  <div class="text-center color3">
+  <h3>¡Gracias por su atención en este tutorial!</h3>
+  <p><strong>Espero que este tutorial haya sido útil para aprender lo básico de Vue.js.</strong> </p>
+  <p>_____________________________________________________________________________________________________________</p>
   </div>
 
-  <h3 class="text-center color1">¡Gracias por su atención en este tutorial!</h3>
-  <p>Espero que este tutorial haya sido útil para aprender lo básico de Vue.js.</p>
-  <p>_</p>
+  <img src="https://pic2-cdn.creality.com/crealityCloud/common/73d985700dec941d0f9e395469eee9fa.webp" alt="miku" class="img-corner0" width="10%" />
+  <img src="https://longviewarboretum.org/wp-content/uploads/2026/04/flowersAsset-3@150x.webp" alt="flores" class="img-corner1" width="50%" />
+  <img src="https://pbs.twimg.com/media/F0hsAuPagAABLeS.jpg" alt="aksually" class="img-corner2" width="5%" />
 </template>
